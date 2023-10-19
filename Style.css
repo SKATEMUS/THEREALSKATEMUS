@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: didot;
+}
+
+body{
+    background-color: #3E3737;
+}
+nav{
+    background-color: #3E3737;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 65px;
+    line-height: 65px;
+}
+
+nav .wrapper{
+    background-color: #3E3737;
+    padding: 0 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: GFS Didot;
+
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 9px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+
+}
+
+.nav-links li a :hover{
+    background-color: #fff;
+}
+
+.wrapper .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: gidugu;
+}
+
+.wrapper .nav-links{
+    display: inline-flex;
+}
+
+.nav-links .drop-menu{
+    background-color: #3E3737;
+    width: 180px;
+    top: 65px;
+    line-height: 45px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nav-links li:hover .drop-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.drop-menu li a{
+    width: 100%;
+    display: block;
+    padding: 0 0 15px 0;
+    font-size: 400;
+    border-radius: 0px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    
+}
+
+h1::before {
+    counter-increment: section;
+  }
+
+
+  img {
+    width: 227px;
+    height: 379px;
+    object-fit: cover;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+  }
+  
+  .container img {
+    width: 25%;
+    height: auto;
+    justify-items:space-between;;
+    margin-top: 200px;
+  }
+
+
+.section{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+    margin: auto;
+}
+
+.container_2 {
+    margin-right: end;
+    border: 3px solid #3E3737;
+    background-color: #fff;
+    padding: 20px 40px 40px;
+    max-width: 640px;
+    display: flex;
+    margin-left: auto;
+}
+
+.container__image_2 {
+    margin: 20px 30px 0 0;
+    width: 200px;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.container__text_2 {
+    flex: 1 1 auto;
+}
+
+.flex-container {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+h4 {
+    padding-top: 75px;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 5vw;
+    color: #fff;
+  }
+
+h5 {
+    color: #fff;
+    text-align: center;
+
+}
+
+.contenct-box{
+    text-align: center;
+
+}
